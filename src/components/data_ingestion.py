@@ -50,10 +50,3 @@ class DataIngestion:
 
         except Exception as e:
             logging.info('Error occured in Data Ingestion config')
-
-
-
-
-
-
-

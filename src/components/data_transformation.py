@@ -50,7 +50,6 @@ class DataTransformation:
                 steps=[
                 ('imputer',SimpleImputer(strategy='median')),
                 ('scaler',StandardScaler())
-
                 ]
 
             )
@@ -135,10 +134,4 @@ class DataTransformation:
             logging.info("Exception occured in the initiate_datatransformation")
 
             raise CustomException(e,sys)
-
-
-    
-
-
-
-
+        
